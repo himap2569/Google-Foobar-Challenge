@@ -64,7 +64,7 @@ def solution(xs):
     xs.sort(reverse=True)
     while(k<n):
         if(xs[k]==0):
-            k+=1
+            k+=1 
         else:
             break
     if(k==n):
